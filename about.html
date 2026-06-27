@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Game Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="6"/><rect x="14" y="4" width="4" height="6"/><path d="M4 20h16a1 1 0 0 0 1-1v-5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v5a1 1 0 0 0 1 1Z"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+        Game Hub
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="games.html">Games</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="page-header animate-fade-up">
+        <h1>About Game Hub</h1>
+        <p>Your central destination for web-based gaming entertainment.</p>
+      </div>
+
+      <div class="about-content animate-fade-up" style="animation-delay:0.1s">
+        <p>
+          Game Hub was created with a simple mission: to bring together the best web-based games in one easy-to-use platform. Whether you are a casual gamer looking for a quick break or a dedicated player exploring new challenges, Game Hub has something for everyone.
+        </p>
+        <p>
+          Our platform serves as a central directory that organizes games by category, making it simple to discover new favorites. Each game includes a description, instructions, and a direct link to play.
+        </p>
+        <p>
+          We believe gaming should be accessible, fun, and hassle-free. That is why we focus exclusively on web-based games that require no downloads, no sign-ups, and no special hardware.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="6"/><rect x="14" y="4" width="4" height="6"/><path d="M4 20h16a1 1 0 0 0 1-1v-5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v5a1 1 0 0 0 1 1Z"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+          <h3>Curated Games</h3>
+          <p>We carefully select and organize the best web-based games so you can find something fun to play instantly.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <h3>Web-Based</h3>
+          <p>All games are playable directly in your browser. No downloads or installations required.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          <h3>Always Updated</h3>
+          <p>We regularly add new games and update our collection to keep the experience fresh.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo" style="margin-bottom:12px">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="6"/><rect x="14" y="4" width="4" height="6"/><path d="M4 20h16a1 1 0 0 0 1-1v-5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v5a1 1 0 0 0 1 1Z"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+            <span>Game Hub</span>
+          </div>
+          <p>Your central hub for web-based games. Play, learn, and have fun!</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="games.html?category=strategy">Strategy</a></li>
+            <li><a href="games.html?category=puzzle">Puzzle</a></li>
+            <li><a href="games.html?category=arcade">Arcade</a></li>
+            <li><a href="games.html?category=educational">Educational</a></li>
+            <li><a href="games.html?category=party">Party</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Top Games</h3>
+          <ul>
+            <li><span>Tic Tac Toe</span></li>
+            <li><span>Memory Game</span></li>
+            <li><span>Snake Game</span></li>
+            <li><span>Rock Paper Scissors</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Game Hub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/games-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
